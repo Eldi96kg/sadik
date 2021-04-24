@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Главная страница</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link rel="shortcut icon" href="statics/logo.png" type="image/x-icon">
+  </head>
+  <body>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <img src="statics/logo.png" alt="logo" width="40" height="40">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contacts.html">Контакты</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">О нас</a>
+          </li>          <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+         aria-expanded="false">Галерея </a>
+         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <li><a class="dropdown-item" href="photo.html">Фотогалерея</a></li>
+           <li><a class="dropdown-item" href="video.html">Видеогалерея</a></li>
+         </ul>
+       </li>
+
+          <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+         aria-expanded="false">
+          Услуги
+         </a>
+         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+           <li><a class="dropdown-item" href="#">Летний лагерь</a></li>
+           <li><a class="dropdown-item" href="#">Кружки</a></li>
+           <li><a class="dropdown-item" href="#">Логопед</a></li>
+           <li><a class="dropdown-item" href="#">Психолог</a></li>
+
+
+         </ul>
+       </li>
+
+        </ul>
+        <form class="d-flex">
+        <button class="btn btn-outline-success" type="submit">Записаться</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel  slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="90%" height="90%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+          <img src="statics/first.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Мазила-сад</h1>
+            <p>Все самое лучшее для развития вашего ребенка</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Записаться</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+<img src="statics/second.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>О нас</h1>
+            <p>Нас много и с нами веселее</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Узнать больше</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+<img src="statics/third.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Взгляд изнутри</h1>
+            <p>Мероприятия развивают мышление детей.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Открыть галерею</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+
+      <div class="col-md-3">
+<div class="bi bi-patch-check" style="font-size: 4rem;"></div>
+        <h3>Качественное образование</h3>
+      </div>
+
+      <div class="col-md-3">
+<div class="bi bi-heart-fill" style="font-size: 4rem;"></div>
+        <h3>Отличный уход за детьми</h3>
+      </div>
+
+      <div class="col-md-3">
+<div class="bi bi-hand-thumbs-up" style="font-size: 4rem;"></div>
+        <h3>Сбалансированное питание</h3>
+      </div>
+
+      <div class="col-md-3">
+<div class="bi bi-compass-fill" style="font-size: 4rem;"></div>
+        <h3>Удобное расположение</h3>
+      </div>
+    </div><!-- /.row -->
+
+    <!-- START THE FEATURETTES -->
+
+                                            <hr>
+
+        <div class="container">
+          <div class="row">
+    <div class="col">
+        <h2 class="featurette-heading"><span style="color:blue; " >Поступление в сад</span></h2>
+        <p>В детский сад принимаются дети с 2 до 6 лет. До заключения контракта с детским садом необходимо записаться на собеседование к педагогу-психологу. Собеседование проводится в присутствии родителей ребенка. Тестирование бесплатное.<br><br>
+Для заключения контракта необходимо предоставить следующие документы:<br><br>
+1.Копию паспорта одного из родителей (на кого заключается контракт)<br>
+2.Копию свидетельства о рождении ребенка<br>
+3.Форму 26 (медицинская карта ребенка)<br>
+4.Форма 63 (прививочная карта)</p>
+      </div>
+</div></div>
+
+                                            <hr>
+
+    <div class="container">
+      <div class="row">
+
+
+      <div class="col-md-7">
+        <h2><span style="color:blue;">Акцент на безопасности</span></h2>
+        <p >Вход на территорию детского сада оснащен системой контроля доступа.<br><br>
+
+Зайти в здание можно только при наличии чип-карты, которая имеется у наших проверенных сотрудников и постоянных клиентов;
+ в здании и на территории детского сада ведется постоянное видеонаблюдение.<br><br>
+
+Для обеспечения максимальной безопасности Ваших детей установлена пожарная сигнализация с автоматическим оповещением.</p>
+      </div>
+
+      <div class="col-md-5">
+<img src="statics/f1.jpg" alt="ff" width="100%" height="100%">
+      </div>
+
+      </div>
+    </div>
+
+                                        <hr>
+
+      <div class="container">
+        <div class="row">
+
+
+      <div class="col-5">
+<img src="statics/f2.jpg" alt="ff22" width="100%" height="100%">
+      </div>
+
+      <div class="col-7">
+        <h2><span style="color:blue;">Качественное образование</span></h2>
+        <p >В процессе обучения используются уникальные авторские методики педагогов ОК «Светоч».<br><br>
+
+Они объединяют современные образовательные технологии и классические образовательные программы.<br><br>
+
+Во время развивающих занятий дети делятся на  мини-группы в соответствии с возрастом  (2-3, 3-4, 5-6 лет).<br><br>
+
+С 4-летнего возраста дети начинают посещать уроки английского и кыргызского языков, а также занятия по психологии и логике.</p>
+      </div>
+
+    </div>
+  </div>
+                                                <hr>
+
+  <div class="container">
+  <div class="row">
+<div class="col-md-7">
+<h2><span style="color:blue;">Гармоничное развитие</span></h2>
+<p >В учебный план занятий включен музыкально-эстетический блок предметов: музыка, хореография и уроки творчества.<br><br>
+В течении учебного года в детском саду проходят яркие и красочные праздники, детские утренники, спектакли.<br><br>
+Дети активно готовятся и с удовольствием выступают перед родителями.<br><br>
+Наши детские мероприятия помогают ребятам проявить себя и справиться с природной застенчивостью.</p>
+      </div>
+<div class="col-md-5">
+<img src="statics/f3.jpg" alt="ff" width="100%" height="100%">
+    </div>
+    </div>
+    </div>
+
+
+                                            <hr>
+
+
+<div class="container">
+  <div class="row">
+
+
+<div class="col-5">
+<img src="statics/f4.jpg" alt="ff22" width="100%" height="100%">
+</div>
+
+<div class="col-7">
+  <h2><span style="color:blue;">Профессионализм</span></h2>
+  <p >Профессионализм
+За время работы нашего детского сада, мы смогли сформировать  сплоченный коллектив настоящих профессионалов.<br><br>
+
+О всестороннем развитии малышей ежедневно заботятся 30 самых ответственных сотрудников:
+воспитатели, педагоги дошкольного образования, врач, логопед, психолог, а также повара-специалисты по детскому питанию.<br><br>
+
+Главное, что объединяет наш дружный коллектив – это любовь к детям и желание раскрыть в каждом малыше будущего гения.</p>
+</div>
+
+</div>
+</div>
+
+
+    <hr>
+
+
+      <div class="container">
+      <div class="row">
+      <div class="col-md-7">
+      <h2><span style="color:blue;">Здоровье ребенка</span></h2>
+      <p >Здоровье ребенка
+Помимо интеллектуального развития и социализации ребенка, мы уделяем большое внимание его состоянию здоровья.<br><br>
+
+У нас работает опытный врач-педиатр, который регулярно проводит осмотры детей, организует ежегодные осмотры узкими специалистами, составляет меню для столовой.<br><br>
+
+В детском саду функционирует логопедическая служба, а психологическое сопровождение учебного процесса обеспечивают полноценное развитие здорового и всесторонне развитого ребенка.</p>
+          </div>
+      <div class="col-md-5">
+      <img src="statics/f5.jpg" alt="ff" width="100%" height="100%">
+        </div>
+        </div>
+        </div>
+
+
+
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="statics/logo.png" alt="dd" width="200" height="150>
+        <small class="d-block mb-3 text-muted">© 2017–2021</small>
+      </div>
+
+      <div class="col-6 col-md">
+        <h5>Информация</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="about.html">О нас</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Часто задаваемые вопросы</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Читаем детям</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Фотогалерея</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Видеогалерея</a></li>
+
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Услуги</h5>
+        <ul class="list-unstyled text-small">
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"></i>Детский сад</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"></i>Центр детского развития</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"></i>Дошкольная подготовка</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"></i>Летний лагерь</a></li>
+          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#"></i>Кружки</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Контакты</h5>
+        <ul class="list-unstyled text-small">
+  <li class="bi bi-youtube"><a class="link-secondary text-decoration-none" href="https://www.youtube.com/"> youtube</a></li>
+  <li class="bi bi-whatsapp"><a class="link-secondary text-decoration-none" href="https://web.whatsapp.com/"> whatsapp</a></li>
+  <li class="bi bi-facebook"><a class="link-secondary text-decoration-none" href="https://www.facebook.com/"> facebook</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  </body>
+</html>
